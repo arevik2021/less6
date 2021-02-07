@@ -1,0 +1,257 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&display=swap');
+
+/* Стили обнуления */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+
+.block__header {
+	background-color: #20B2AA;
+	outline: 5px solid #4682B4;
+	}
+
+nav>img {
+	border-radius: 50%;
+}
+
+nav {
+	font-family: 'Noto Serif', serif;
+	max-width: 100%;
+	max-height: 500px;
+	margin: 20px 50px 20px 50px;
+	padding: 20px 30px 20px 30px;
+	font-size: 50px;
+	font-weight: 900;
+	text-align:center;
+	text-transform:lowercase;
+		
+	}
+
+nav>a {
+	
+}
+.block_text {
+	font-size: 0;
+}
+p {
+	font-family: 'Noto Serif', serif;
+}
+.block_main {
+	background-color: #008B8B;
+	}
+
+.block_text>p {
+	border: 4px dotted #ADD8E6;
+	max-width: 100%;
+	max-height: 500px;
+	margin: 20px 50px 20px 50px;
+	padding: 20px 30px 20px 30px;
+	border-radius: 40px 0 40px 0;
+	font-family: 'Noto Serif', serif;
+	font-size: 20px;
+	color: ;
+	}
+
+.text {
+	float: left;
+	width: 350px;
+	margin: 30px;
+	overflow:hidden;
+}
+
+.block_sector {
+	border: 4px double #000080;
+	max-width: 100%;
+	max-height: 500px;
+	margin: 20px 50px 20px 50px;
+	overflow:auto;
+	
+}
+
+.sector_one {
+	border: 1px solid #800080;
+	width: 400px;
+	height: 300px;
+	display: inline-block;
+	margin: 20px 60px 20px 30px;
+	overflow:auto;
+	box-shadow: 30px 10px 10px #00BFFF;
+}
+
+.sector_two {
+	border-left: 3px solid #800080;
+	border-bottom: 3px solid #800080; 
+	width: 400px;
+	height: 300px;
+	display: inline-block;
+	margin: 20px 60px 20px 30px;
+	box-shadow: 30px 10px 10px #0aa144;
+	}
+.sector_three{
+	border-left: 3px dotted #800080;
+	border-top: 3px solid #800080; 
+	width: 400px;
+	height: 300px;
+	display: inline-block;
+	margin: 20px 60px 20px 30px;
+	box-shadow: 30px 10px 10px #0aa144;
+}
+
+.sector_one p {
+	text-align: center;
+	display: inline-block;
+	margin: 10px 60px 20px 30px;
+	}
+
+.sector_two p {
+	text-align: center;
+	font-size: 10px;
+}
+.sector_three p {
+	text-align: center;
+	font-size: 10px;
+	}
+
+h3 {
+	text-align: center;
+}
+
+.sector_four {
+	border-left: 3px dotted #800080;
+	border-top: 3px solid #800080; 
+	width: 400px;
+	height: 300px;
+	display: inline-block;
+	margin:0px 60px 0px 30px;
+	opacity: 0.5;
+}
+
+.sector_five {
+	border-left: 3px dotted #800080;
+	border-bottom: 3px solid #800080; 
+	border-right: 3px dotted #800080;
+	border-top: 3px solid #800080; 
+	width: 400px;
+	height: 300px;
+	display: inline-block;
+	margin:0px 60px 0px 30px;
+}
+
+.sector_six {
+	border-right: 3px dotted #800080;
+	border-bottom: 3px solid #800080; 
+	width: 400px;
+	height: 300px;
+	display: inline-block;
+	margin:0px 60px 0px 30px;
+}
+.sector_four p {
+	text-align: center;
+	font-size: 10px;
+}
+
+.sector_five p {
+	text-align: center;
+	font-size: 10px;
+}
+
+.sector_six p {
+	text-align: center;
+	font-size: 10px;
+}
+
+.image {
+ max-width: 250px;
+ margin: 10px 60px 0px 70px;
+ border-radius: 40px;
+}
+
+
+.block_title {
+	border: 4px dashed #191970;
+	max-width: 100%;
+	max-height: 500px;
+	margin: 50px 50px 20px 50px;
+	border-radius: 0px 40px 0px 40px;
+	
+}
+
+.title_name {
+	border: 4px dashed #191970;
+	max-width: 100%;
+	max-height: 500px;
+	margin: 0px 50px 0px 50px;
+	color: #8b0909;
+	font-size: 50px;
+	font-weight: 900;
+	text-align:center;
+	text-transform:lowercase;
+	line-height: 80px;
+	letter-spacing: 20px;
+	}
+.title_none {
+	opacity: 0;
+	transition: all 0.3s ease 0s;
+}
+
+.block_none {
+	border: 10px double #191970;
+	border-radius: 50px;
+	max-width: 100%;
+	max-height: 500px;
+	margin: 50px 50px 20px 50px;
+	}
+.block_none>p {
+	text-align:center;
+	text-transform:lowercase;
+	line-height: 80px;
+	letter-spacing: 20px;
+}
+.title_none:hover {
+	opacity: 1;
+	visibility: visible;
+}
+
+.text_none {
+	visibility:hidden;
+	}
+
+.social {
+	border: 1px solid #1E90FF;
+	max-width: 100%;
+	max-height: 500px;
+	margin: 20px 50px 20px 50px;
+	padding: 40px;
+}
+
+.social img {
+	display: inline;
+	max-width: 100px;
+	padding: 0px 0px 0px 0px;
+}
